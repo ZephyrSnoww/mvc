@@ -1,7 +1,14 @@
+:root {
+  --bg: #101010;
+  --fg: #e0e0e0;
+  --ac: #268ae2;
+}
+
 body {
   margin: 0;
   width: 100vw;
   height: 100vh;
+  background-color: var(--bg);
 }
 
 #app {
